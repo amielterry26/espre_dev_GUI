@@ -1,0 +1,48 @@
+# Ignore build artifacts
+build/
+*.o
+*.obj
+*.exe
+*.so
+*.dll
+*.a
+*.lib
+*.moc
+*.qrc.depends
+*.qrc.resources
+*.pro.user
+
+# Qt Creator / CLion / CMake hidden files
+.idea/
+*.user
+*.user.*
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Backup files
+*.bak
+*.old
+
+# macOS system files
+.DS_Store
+
+# Optional: logs
+log/
+*.log
+
+# Node/NPM if mistakenly added
+node_modules/
+
+# Python virtualenvs if any
+venv/
+.env
+__pycache__/
+*.pyc
